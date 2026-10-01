@@ -1,0 +1,1577 @@
+{
+  "schema": 1,
+  "defaults": {
+    "tier": 2
+  },
+  "classes": [
+    {
+      "id": "shieldoftheelements",
+      "name": "Shield of the Elements",
+      "description": "Protects allies or themselves with an elemental aegis.",
+      "gender": "Male",
+      "appearanceFrom": "04-Ranger",
+      "tier": 2,
+      "unlock": {
+        "difficulty": 1
+      },
+      "stats": {
+        "might": 10,
+        "dexterity": 8,
+        "vitality": 12,
+        "intelligence": 12,
+        "reflex": 8
+      },
+      "skills": [
+        "Fire Shield",
+        "Lightning Shield",
+        "Frost Armor"
+      ],
+      "equipment": {
+        "armor": "Chain Mail",
+        "mainHand": "Gemstone Wand Sprig",
+        "offHand": "Heater"
+      }
+    },
+    {
+      "id": "translocator",
+      "name": "Translocator",
+      "description": "Catch me if you can!",
+      "gender": "Female",
+      "appearanceFrom": "03-Pyromancer",
+      "tier": 2,
+      "unlock": {
+        "difficulty": 1
+      },
+      "stats": {
+        "might": 8,
+        "dexterity": 12,
+        "vitality": 8,
+        "intelligence": 14,
+        "reflex": 8
+      },
+      "skills": [
+        "Telekinesis",
+        "Switcheroo",
+        "Teleport Self",
+        "Teleport Other"
+      ],
+      "equipment": {
+        "armor": "Canary Tunic",
+        "mainHand": "Flintlock Pistol",
+        "offHand": "Flintlock Pistol"
+      }
+    },
+    {
+      "id": "sandman",
+      "name": "Sandman",
+      "description": "You're getting sleepy...",
+      "gender": "Male",
+      "appearanceFrom": "05-Monk",
+      "tier": 2,
+      "unlock": {
+        "difficulty": 1
+      },
+      "stats": {
+        "might": 8,
+        "dexterity": 8,
+        "vitality": 12,
+        "intelligence": 14,
+        "reflex": 8
+      },
+      "skills": [
+        "Incapacitate",
+        "Tranquilizing Shot",
+        "Sleep Spores"
+      ],
+      "gearNote": "Bow or Rifle",
+      "equipment": {
+        "armor": "Sand Sultan Tunic",
+        "mainHand": "Gemstone Cane"
+      }
+    },
+    {
+      "id": "avant-gardener",
+      "name": "Avant Gardener",
+      "description": "I'm not that good at breathing in.",
+      "gender": "Female",
+      "appearanceFrom": "12-Chaos",
+      "tier": 2,
+      "unlock": {
+        "difficulty": 1
+      },
+      "stats": {
+        "might": 12,
+        "dexterity": 8,
+        "vitality": 10,
+        "intelligence": 12,
+        "reflex": 8
+      },
+      "skills": [
+        "Brambles",
+        "Thorns I",
+        "Thorns II",
+        "Bristles",
+        "Ice Wall"
+      ],
+      "equipment": {
+        "armor": "Tunic",
+        "mainHand": "Shovel"
+      }
+    },
+    {
+      "id": "aura",
+      "name": "Aura",
+      "description": "So much aura.",
+      "gender": "Female",
+      "appearanceFrom": "05-Monk",
+      "tier": 2,
+      "unlock": {
+        "difficulty": 1
+      },
+      "stats": {
+        "might": 11,
+        "dexterity": 8,
+        "vitality": 11,
+        "intelligence": 12,
+        "reflex": 8
+      },
+      "skills": [
+        "Aura of Flame",
+        "Aura of Lightning",
+        "Aura Of Frost"
+      ],
+      "gearNote": "Fire Wand and Lightning Wand",
+      "equipment": {
+        "armor": "Magus Robe",
+        "mainHand": "Gemstone Wand",
+        "offHand": "Gemstone Wand Rod"
+      }
+    },
+    {
+      "id": "stormweaver",
+      "name": "Stormweaver",
+      "description": "Ride the lightning!",
+      "gender": "Male",
+      "appearanceFrom": "10-Shaman",
+      "tier": 2,
+      "unlock": {
+        "difficulty": 1
+      },
+      "stats": {
+        "might": 12,
+        "dexterity": 8,
+        "vitality": 10,
+        "intelligence": 12,
+        "reflex": 8
+      },
+      "skills": [
+        "Dazzling Darts",
+        "Discharge",
+        "Enchant Lightning",
+        "Thunder Bolt",
+        "Storm Brewing"
+      ],
+      "gearNote": "Lightning Staff with Intelligence",
+      "equipment": {
+        "armor": "Lightning Wraps",
+        "mainHand": "Conduit Rod"
+      }
+    },
+    {
+      "id": "iron-foot",
+      "name": "Iron Foot",
+      "description": "Formerly the Graviturgist, before I realised all he did was kick things.",
+      "gender": "Male",
+      "appearanceFrom": "T2_Way of the Foot",
+      "tier": 2,
+      "unlock": {
+        "difficulty": 1
+      },
+      "stats": {
+        "might": 12,
+        "dexterity": 10,
+        "vitality": 10,
+        "intelligence": 10,
+        "reflex": 8
+      },
+      "skills": [
+        "Force Kick",
+        "Sweeping Kick",
+        "Cyclone Kick"
+      ],
+      "gearNote": "Staff",
+      "equipment": {
+        "armor": "Competitor's Garb",
+        "mainHand": "Spear"
+      }
+    },
+    {
+      "id": "good-witch",
+      "name": "Good Witch",
+      "description": "Glinda.",
+      "gender": "Female",
+      "appearanceFrom": "T3_Gambler",
+      "tier": 2,
+      "unlock": {
+        "difficulty": 1
+      },
+      "stats": {
+        "might": 11,
+        "dexterity": 8,
+        "vitality": 10,
+        "intelligence": 13,
+        "reflex": 8
+      },
+      "skills": [
+        "Helping",
+        "Aid",
+        "Benevolence"
+      ],
+      "gearNote": "Healing Staff",
+      "equipment": {
+        "armor": "Humble Garb",
+        "mainHand": "Elder Branch"
+      }
+    },
+    {
+      "id": "wicked-witch",
+      "name": "Wicked Witch",
+      "description": "Elphaba.",
+      "gender": "Female",
+      "appearanceFrom": "T5_Accursed",
+      "tier": 2,
+      "unlock": {
+        "difficulty": 1
+      },
+      "stats": {
+        "might": 13,
+        "dexterity": 8,
+        "vitality": 8,
+        "intelligence": 13,
+        "reflex": 8
+      },
+      "skills": [
+        "Hurting",
+        "Harm",
+        "Malevolence"
+      ],
+      "gearNote": "Shadow Staff",
+      "equipment": {
+        "armor": "Violet Robes",
+        "mainHand": "Crystal Shillelagh"
+      }
+    },
+    {
+      "id": "venomancer",
+      "name": "Venomancer",
+      "description": "You're poison running through my veins!",
+      "gender": "Male",
+      "appearanceFrom": "T2_Toxic",
+      "tier": 2,
+      "unlock": {
+        "difficulty": 1
+      },
+      "stats": {
+        "might": 13,
+        "dexterity": 8,
+        "vitality": 8,
+        "intelligence": 13,
+        "reflex": 8
+      },
+      "skills": [
+        "Entangle",
+        "Poison Cloud",
+        "Contagion",
+        "Mass Entangle"
+      ],
+      "equipment": {
+        "armor": "Plague Jacket",
+        "mainHand": "Corrupted Shard",
+        "offHand": "Thorn Shield"
+      }
+    },
+    {
+      "id": "bloodletter",
+      "name": "Bloodletter",
+      "description": "You can bleed all over me.",
+      "gender": "Male",
+      "appearanceFrom": "11-Druid",
+      "tier": 2,
+      "unlock": {
+        "difficulty": 2
+      },
+      "stats": {
+        "might": 14,
+        "dexterity": 10,
+        "vitality": 8,
+        "intelligence": 10,
+        "reflex": 8
+      },
+      "skills": [
+        "Disengage",
+        "Gouge",
+        "Bleeding Cleave",
+        "Rupture"
+      ],
+      "gearNote": "1h melee weapon with bleed effect x 2",
+      "equipment": {
+        "head": "Blood Mask",
+        "armor": "Hunter's Trappings",
+        "mainHand": "Stiletto",
+        "offHand": "Stiletto"
+      }
+    },
+    {
+      "id": "doppelganger",
+      "name": "Doppelganger",
+      "description": "I'm the real one! No, I'm the real one!",
+      "gender": "Female",
+      "appearanceFrom": "T2_Worshiper",
+      "tier": 2,
+      "unlock": {
+        "difficulty": 2
+      },
+      "stats": {
+        "might": 10,
+        "dexterity": 10,
+        "vitality": 10,
+        "intelligence": 10,
+        "reflex": 10
+      },
+      "skills": [
+        "Replicate"
+      ],
+      "equipment": {
+        "armor": "Leather Doublet",
+        "mainHand": "Zweihander"
+      }
+    },
+    {
+      "id": "fist-of-the-south-star",
+      "name": "Fist of the South Star",
+      "description": "You are already dead.",
+      "gender": "Male",
+      "appearanceFrom": "T5_The Enlightened",
+      "tier": 2,
+      "unlock": {
+        "difficulty": 2
+      },
+      "stats": {
+        "might": 18,
+        "dexterity": 8,
+        "vitality": 8,
+        "intelligence": 8,
+        "reflex": 8
+      },
+      "skills": [
+        "Chi Strike",
+        "One Punch Monk"
+      ],
+      "gearNote": "Fist Weapon (just one)",
+      "equipment": {
+        "armor": "Student's Gi",
+        "mainHand": "Brass Knuckles"
+      }
+    },
+    {
+      "id": "guardian-angel",
+      "name": "Guardian Angel",
+      "description": "Heroes never die!",
+      "gender": "Female",
+      "appearanceFrom": "06-Summoner",
+      "tier": 2,
+      "unlock": {
+        "difficulty": 2
+      },
+      "stats": {
+        "might": 8,
+        "dexterity": 8,
+        "vitality": 18,
+        "intelligence": 8,
+        "reflex": 8
+      },
+      "skills": [
+        "Glory",
+        "Redemption"
+      ],
+      "equipment": {
+        "armor": "Sunwalker Robes",
+        "mainHand": "Elder Branch"
+      }
+    },
+    {
+      "id": "protector",
+      "name": "Protector",
+      "description": "The Bodyguard.",
+      "gender": "Male",
+      "appearanceFrom": "07-Priest",
+      "tier": 2,
+      "unlock": {
+        "difficulty": 2
+      },
+      "stats": {
+        "might": 12,
+        "dexterity": 8,
+        "vitality": 10,
+        "intelligence": 12,
+        "reflex": 8
+      },
+      "skills": [
+        "Shield of Light",
+        "Shield of Retribution",
+        "The Good Doctor"
+      ],
+      "equipment": {
+        "armor": "Full Platemail",
+        "mainHand": "Gilded Scepter",
+        "offHand": "Holy Heater"
+      }
+    },
+    {
+      "id": "marksman",
+      "name": "Marksman",
+      "description": "All arrows find their mark.",
+      "gender": "Male",
+      "appearanceFrom": "T1_03 Archer",
+      "tier": 2,
+      "unlock": {
+        "difficulty": 2
+      },
+      "stats": {
+        "might": 8,
+        "dexterity": 14,
+        "vitality": 8,
+        "intelligence": 12,
+        "reflex": 8
+      },
+      "skills": [
+        "Bleeding Shot",
+        "Dispelling Shot",
+        "Endless Quiver"
+      ],
+      "gearNote": "Bow or Rifle",
+      "equipment": {
+        "head": "Simple Hood",
+        "armor": "Ranger Tunic",
+        "mainHand": "Griffin Horn"
+      }
+    },
+    {
+      "id": "fortress-knight",
+      "name": "Fortress Knight",
+      "description": "Absolute unit.",
+      "gender": "Female",
+      "appearanceFrom": "T5_The True King",
+      "tier": 2,
+      "unlock": {
+        "difficulty": 2
+      },
+      "stats": {
+        "might": 10,
+        "dexterity": 8,
+        "vitality": 16,
+        "intelligence": 8,
+        "reflex": 8
+      },
+      "skills": [
+        "Thorns I",
+        "Thorns II",
+        "Indestructible"
+      ],
+      "equipment": {
+        "head": "Bladed Helm",
+        "armor": "Spikemail",
+        "mainHand": "Dwarven Morningstar",
+        "offHand": "Bladed Buckler"
+      }
+    },
+    {
+      "id": "blood-knight",
+      "name": "Blood Knight",
+      "description": "You can bleed all oh wait I already did that.",
+      "gender": "Male",
+      "appearanceFrom": "T5_Avatar of Flame",
+      "tier": 2,
+      "unlock": {
+        "difficulty": 2
+      },
+      "stats": {
+        "might": 12,
+        "dexterity": 8,
+        "vitality": 14,
+        "intelligence": 8,
+        "reflex": 8
+      },
+      "skills": [
+        "Warrior's Boon",
+        "Vitality Break",
+        "Blood Drinker"
+      ],
+      "equipment": {
+        "head": "Knight's Plate Helm",        
+        "armor": "Knight's Full Plate",
+        "mainHand": "Bloodletter",
+        "offHand": "Bloodletter"
+      }
+    },
+    {
+      "id": "stunner",
+      "name": "Stunner",
+      "description": "Stone. Cold.",
+      "gender": "Female",
+      "appearanceFrom": "T3_Midas",
+      "tier": 2,
+      "unlock": {
+        "difficulty": 2
+      },
+      "stats": {
+        "might": 14,
+        "dexterity": 8,
+        "vitality": 10,
+        "intelligence": 10,
+        "reflex": 8
+      },
+      "skills": [
+        "Paralyzing Strike",
+        "Stunning Kick",
+        "Stunning Slam"
+      ],
+      "equipment": {
+        "armor": "Animal Furs",
+        "mainHand": "Earthshaker"
+      }
+    },
+    {
+      "id": "white-walker",
+      "name": "White Walker",
+      "description": "Winter is here.",
+      "gender": "Male",
+      "appearanceFrom": "06-Summoner",
+      "tier": 2,
+      "unlock": {
+        "difficulty": 2
+      },
+      "stats": {
+        "might": 10,
+        "dexterity": 8,
+        "vitality": 12,
+        "intelligence": 12,
+        "reflex": 8
+      },
+      "skills": [
+        "Aura Of Frost",
+        "Battle Ready",
+        "Diamond Ice",
+        "Invulnerable Winter"
+      ],
+      "gearNote": "Sapphire Sword and Shield",
+      "equipment": {
+        "armor": "Ice Wraps",
+        "mainHand": "Sapphire Sword",
+        "offHand": "Savage Shield"
+      }
+    },
+    {
+      "id": "draconic-soul",
+      "name": "Draconic Soul",
+      "description": "Like the sorcerer subclass, only cooler.",
+      "gender": "Female",
+      "appearanceFrom": "10-Shaman",
+      "tier": 3,
+      "unlock": {
+        "difficulty": 3
+      },
+      "stats": {
+        "might": 12,
+        "dexterity": 8,
+        "vitality": 11,
+        "intelligence": 11,
+        "reflex": 8
+      },
+      "skills": [
+        "Shapeshift Dragonkin",
+        "Skin Walker"
+      ],
+      "gearNote": "2h melee weapon",
+      "equipment": {
+        "armor": "Golden Fleece",
+        "mainHand": "Hunting Spear"
+      }
+    },
+    {
+      "id": "wild-wizard",
+      "name": "Wild Wizard",
+      "description": "Like the sorcerer subclass, only nerdier.",
+      "gender": "Male",
+      "appearanceFrom": "12-Chaos",
+      "tier": 3,
+      "unlock": {
+        "difficulty": 3
+      },
+      "stats": {
+        "might": 14,
+        "dexterity": 8,
+        "vitality": 8,
+        "intelligence": 12,
+        "reflex": 8
+      },
+      "skills": [
+        "Chaos Crash",
+        "Chaos Curse",
+        "Chaos Cut",
+        "Perturb"
+      ],
+      "equipment": {
+        "armor": "Wizard's Robe",
+        "mainHand": "Crystal Staff"
+      }
+    },
+    {
+      "id": "untouchable",
+      "name": "Untouchable",
+      "description": "Can't touch this!",
+      "gender": "Female",
+      "appearanceFrom": "02-Thief",
+      "tier": 3,
+      "unlock": {
+        "difficulty": 3
+      },
+      "stats": {
+        "might": 8,
+        "dexterity": 8,
+        "vitality": 8,
+        "intelligence": 8,
+        "reflex": 18
+      },
+      "skills": [
+        "Ghost Armor",
+        "Enduring Evasion",
+        "Smoke Bomb",
+        "Calculated Risk"
+      ],
+      "equipment": {
+        "armor": "Duelist's Vest",
+        "mainHand": "Sai",
+        "offHand": "Sai"
+      }
+    },
+    {
+      "id": "cryomancer",
+      "name": "Cryomancer",
+      "description": "Let it go.",
+      "gender": "Female",
+      "appearanceFrom": "08-Cryomancer",
+      "tier": 3,
+      "unlock": {
+        "difficulty": 3
+      },
+      "stats": {
+        "might": 14,
+        "dexterity": 8,
+        "vitality": 10,
+        "intelligence": 10,
+        "reflex": 8
+      },
+      "skills": [
+        "Enchant Cold",
+        "Aura Of Frost",
+        "Master Of Ice"
+      ],
+      "gearNote": "Ice Wand x 2",
+      "equipment": {
+        "armor": "Ice Wraps",
+        "mainHand": "Gemstone Wand Sprig",
+        "offHand": "Gemstone Wand Sprig"
+      }
+    },
+    {
+      "id": "fencer",
+      "name": "Fencer",
+      "description": "En garde!",
+      "gender": "Male",
+      "appearanceFrom": "T2_Duelist",
+      "tier": 3,
+      "unlock": {
+        "difficulty": 3
+      },
+      "stats": {
+        "might": 8,
+        "dexterity": 8,
+        "vitality": 10,
+        "intelligence": 8,
+        "reflex": 16
+      },
+      "skills": [
+        "Opportunist",
+        "En Garde",
+        "Calculated Risk",
+        "Crash and Flow"
+      ],
+      "gearNote": "Light 1h weapon",
+      "equipment": {
+        "head": "Olive Feathered Beret",
+        "armor": "Nobleman's Vest",
+        "mainHand": "Rapier",
+        "offHand": "Heater"
+      }
+    },
+    {
+      "id": "paladin",
+      "name": "Paladin",
+      "description": "Just stay close to me.",
+      "gender": "Female",
+      "appearanceFrom": "07-Priest",
+      "tier": 3,
+      "unlock": {
+        "difficulty": 3
+      },
+      "stats": {
+        "might": 12,
+        "dexterity": 8,
+        "vitality": 12,
+        "intelligence": 10,
+        "reflex": 8
+      },
+      "skills": [
+        "Seal of Protection",
+        "Seal of Might",
+        "Seal of Salvation"
+      ],
+      "gearNote": "2h",
+      "equipment": {
+        "head": "Paladin's Helm",
+        "armor": "Paladin Platemail",
+        "mainHand": "Flanged Mace"
+      }
+    },
+    {
+      "id": "devourer",
+      "name": "Devourer",
+      "description": "My hunger knows no bounds.",
+      "gender": "Female",
+      "appearanceFrom": "T3_Turret",
+      "tier": 3,
+      "unlock": {
+        "difficulty": 3
+      },
+      "stats": {
+        "might": 8,
+        "dexterity": 8,
+        "vitality": 13,
+        "intelligence": 13,
+        "reflex": 8
+      },
+      "skills": [
+        "Thirst I",
+        "Thirst II",
+        "Hunger",
+        "Mana Shield",
+        "Fever"
+      ],
+      "equipment": {
+        "armor": "Guardian's Way",
+        "mainHand": "Blood Runed Cleaver",
+        "offHand": "Blood Runed Cleaver"
+      }
+    },
+    {
+      "id": "burglar",
+      "name": "Burglar",
+      "description": "I promise you, I'm not an encyclopedia salesman.",
+      "gender": "Male",
+      "appearanceFrom": "02-Thief",
+      "tier": 3,
+      "unlock": {
+        "difficulty": 3
+      },
+      "stats": {
+        "might": 8,
+        "dexterity": 14,
+        "vitality": 10,
+        "intelligence": 10,
+        "reflex": 8
+      },
+      "skills": [
+        "Steal Action",
+        "Steal Status",
+        "Sleight of Hand"
+      ],
+      "gearNote": "Dagger x 2",
+      "equipment": {
+        "head": "Simple Hood",
+        "armor": "Stalker's Leather",
+        "mainHand": "Thief's Blade",
+        "offHand": "Thief's Blade"
+      }
+    },
+    {
+      "id": "tempest",
+      "name": "Tempest",
+      "description": "O brave new world, that has such people in't!",
+      "gender": "Male",
+      "appearanceFrom": "T1_06 Priest",
+      "tier": 3,
+      "unlock": {
+        "difficulty": 3
+      },
+      "stats": {
+        "might": 12,
+        "dexterity": 8,
+        "vitality": 8,
+        "intelligence": 14,
+        "reflex": 8
+      },
+      "skills": [
+        "Thunder Storm",
+        "Ice Storm",
+        "Rainstorm"
+      ],
+      "equipment": {
+        "armor": "Tlaloc Garments",
+        "mainHand": "Crystal Rod"
+      }
+    },
+    {
+      "id": "ronin",
+      "name": "Ronin",
+      "description": "When the world is a jungle, it is better to be a tiger than a man.",
+      "gender": "Female",
+      "appearanceFrom": "T2_Ninja",
+      "tier": 3,
+      "unlock": {
+        "difficulty": 3
+      },
+      "stats": {
+        "might": 10,
+        "dexterity": 14,
+        "vitality": 10,
+        "intelligence": 8,
+        "reflex": 8
+      },
+      "skills": [
+        "Quick Draw",
+        "Blood Drinker",
+        "Master Assassin"
+      ],
+      "equipment": {
+        "armor": "Warrior's Path",
+        "mainHand": "Naginata"
+      }
+    },
+    {
+      "id": "eternal",
+      "name": "Eternal",
+      "description": "I am infinite.",
+      "gender": "Female",
+      "appearanceFrom": "T2_Vampire",
+      "tier": 3,
+      "unlock": {
+        "difficulty": 4
+      },
+      "stats": {
+        "might": 8,
+        "dexterity": 8,
+        "vitality": 18,
+        "intelligence": 8,
+        "reflex": 8
+      },
+      "skills": [
+        "Glory",
+        "Thirst I",
+        "Thirst II",
+        "Child of the Abyss"
+      ],
+      "equipment": {
+        "armor": "Arena Plate",
+        "mainHand": "Crimson Slayer"
+      }
+    },
+    {
+      "id": "time-mage",
+      "name": "Time Mage",
+      "description": "Gotta go fast!",
+      "gender": "Male",
+      "appearanceFrom": "T3_Accelerator",
+      "tier": 3,
+      "unlock": {
+        "difficulty": 4
+      },
+      "stats": {
+        "might": 8,
+        "dexterity": 8,
+        "vitality": 8,
+        "intelligence": 18,
+        "reflex": 8
+      },
+      "skills": [
+        "Kindling",
+        "Haste",
+        "Mass Haste"
+      ],
+      "gearNote": "Staff",
+      "equipment": {
+        "armor": "Traveler's Robe",
+        "mainHand": "Gilded Staff"
+      }
+    },
+    {
+      "id": "martyr",
+      "name": "Martyr",
+      "description": "I burn my life to make a sunrise that I know I'll never see.",
+      "gender": "Female",
+      "appearanceFrom": "T2_Way of the Foot",
+      "tier": 3,
+      "unlock": {
+        "difficulty": 4
+      },
+      "stats": {
+        "might": 10,
+        "dexterity": 8,
+        "vitality": 16,
+        "intelligence": 8,
+        "reflex": 8
+      },
+      "skills": [
+        "Cure",
+        "The Good Doctor",
+        "Strength",
+        "Fever"
+      ],
+      "equipment": {
+        "armor": "Cleric's Garb",
+        "mainHand": "Elder Branch"
+      }
+    },
+    {
+      "id": "bounty-hunter",
+      "name": "Bounty Hunter",
+      "description": "I can bring you in warm, or I can bring you in cold.",
+      "gender": "Female",
+      "appearanceFrom": "T2_Elemental Conduit",
+      "tier": 3,
+      "unlock": {
+        "difficulty": 4
+      },
+      "stats": {
+        "might": 10,
+        "dexterity": 14,
+        "vitality": 8,
+        "intelligence": 10,
+        "reflex": 8
+      },
+      "skills": [
+        "Bounty Hunter's Mark",
+        "Quick Draw",
+        "Marked Prey"
+      ],
+      "gearNote": "Pistol x 2",
+      "equipment": {
+        "head": "Stalker's Hood",
+        "armor": "Professional Finery",
+        "mainHand": "Pirate Sidearm",
+        "offHand": "Pirate Sidearm"
+      }
+    },
+    {
+      "id": "shadowbringer",
+      "name": "Shadowbringer",
+      "description": "Remember us. Remember that we once lived.",
+      "gender": "Female",
+      "appearanceFrom": "T4_Shadow",
+      "tier": 3,
+      "unlock": {
+        "difficulty": 4
+      },
+      "stats": {
+        "might": 8,
+        "dexterity": 8,
+        "vitality": 18,
+        "intelligence": 8,
+        "reflex": 8
+      },
+      "skills": [
+        "Haunt",
+        "Vengeful Shadows",
+        "Consumption",
+        "Endless Night"
+      ],
+      "gearNote": "weapon that does shadow damage",
+      "equipment": {
+        "head": "Simple Hood",
+        "armor": "Shadowstalker Body Armor",
+        "mainHand": "Abyssal Staff"
+      }
+    },
+    {
+      "id": "trickshot",
+      "name": "Trickshot",
+      "description": "Did someone say ricochet?",
+      "gender": "Male",
+      "appearanceFrom": "T2_Sniper",
+      "tier": 3,
+      "unlock": {
+        "difficulty": 4
+      },
+      "stats": {
+        "might": 12,
+        "dexterity": 12,
+        "vitality": 8,
+        "intelligence": 10,
+        "reflex": 8
+      },
+      "skills": [
+        "Volley",
+        "Endless Quiver",
+        "Branching Shot"
+      ],
+      "gearNote": "Bow or Rifle",
+      "equipment": {
+        "head": "Archer's Cap",
+        "armor": "Archer's Garb",
+        "mainHand": "Sharpshooter"
+      }
+    },
+    {
+      "id": "butcher",
+      "name": "Butcher",
+      "description": "Ah, fresh meat!",
+      "gender": "Male",
+      "appearanceFrom": "T3_Berserker",
+      "tier": 3,
+      "unlock": {
+        "difficulty": 4
+      },
+      "stats": {
+        "might": 14,
+        "dexterity": 8,
+        "vitality": 12,
+        "intelligence": 8,
+        "reflex": 8
+      },
+      "skills": [
+        "Life Cleave",
+        "Blood Drinker",
+        "Colossus"
+      ],
+      "gearNote": "2h Axe with Life Steal",
+      "equipment": {
+        "armor": "Animal Furs",
+        "mainHand": "Bone Cleaver"
+      }
+    },
+    {
+      "id": "cannon",
+      "name": "Cannon",
+      "description": "Not canon.",
+      "gender": "Male",
+      "appearanceFrom": "T4_Fabricator",
+      "tier": 3,
+      "unlock": {
+        "difficulty": 4
+      },
+      "stats": {
+        "might": 16,
+        "dexterity": 8,
+        "vitality": 8,
+        "intelligence": 10,
+        "reflex": 8
+      },
+      "skills": [
+        "Blasting Shot",
+        "Endless Quiver",
+        "Force Shot"
+      ],
+      "gearNote": "shooter",
+      "equipment": {
+        "armor": "Swashbuckler Vest",
+        "mainHand": "Elephant Gun"
+      }
+    },
+    {
+      "id": "corpse-flower",
+      "name": "Corpse Flower",
+      "description": "From death, life.",
+      "gender": "Female",
+      "appearanceFrom": "11-Druid",
+      "tier": 3,
+      "unlock": {
+        "difficulty": 4
+      },
+      "stats": {
+        "might": 12,
+        "dexterity": 10,
+        "vitality": 12,
+        "intelligence": 8,
+        "reflex": 8
+      },
+      "skills": [
+        "Reaper's Toll",
+        "Natural Selection",
+        "Circle of Life",
+        "Bone Collector"
+      ],
+      "equipment": {
+        "armor": "Pupil's Attire",
+        "mainHand": "Quarterstaff"
+      }
+    },
+    {
+      "id": "mentor",
+      "name": "Mentor",
+      "description": "Let me teach you a thing or two!",
+      "gender": "Male",
+      "appearanceFrom": "08-Cryomancer",
+      "tier": 3,
+      "unlock": {
+        "difficulty": 4
+      },
+      "stats": {
+        "might": 8,
+        "dexterity": 8,
+        "vitality": 8,
+        "intelligence": 18,
+        "reflex": 8
+      },
+      "skills": [
+        "Bless",
+        "Helping",
+        "Overload",
+        "Ascendancy"
+      ],
+      "equipment": {
+        "armor": "Professional Finery",
+        "mainHand": "Divinity Staff"
+      }
+    },
+    {
+      "id": "death-knight",
+      "name": "Death Knight",
+      "description": "All will serve in death.",
+      "gender": "Female",
+      "appearanceFrom": "09-Shadow Knight",
+      "tier": 3,
+      "unlock": {
+        "difficulty": 5
+      },
+      "stats": {
+        "might": 16,
+        "dexterity": 8,
+        "vitality": 10,
+        "intelligence": 8,
+        "reflex": 8
+      },
+      "skills": [
+        "Reaper's Toll",
+        "Reaper's Scythe"
+      ],
+      "equipment": {
+        "head": "Dark Steel Helm",
+        "armor": "Dark Steel Platemail",
+        "mainHand": "Abaddon"
+      }
+    },
+    {
+      "id": "genius",
+      "name": "Genius",
+      "description": "Trust me, I know what I'm doing.",
+      "gender": "Male",
+      "appearanceFrom": "03-Pyromancer",
+      "tier": 3,
+      "unlock": {
+        "difficulty": 5
+      },
+      "stats": {
+        "might": 8,
+        "dexterity": 8,
+        "vitality": 8,
+        "intelligence": 18,
+        "reflex": 8
+      },
+      "skills": [
+        "Dazzling Darts",
+        "Frost Shard",
+        "Light's Brilliance",
+        "Heavy Rains",
+        "Invulnerable Winter"
+      ],
+      "equipment": {
+        "armor": "Scholar's Attire",
+        "mainHand": "Ancient Staff"
+      }
+    },
+    {
+      "id": "florist",
+      "name": "Florist",
+      "description": "Freedom. Boundless, terrifying freedom. Like a great, never-ending sky.",
+      "gender": "Female",
+      "appearanceFrom": "T1_05 Summoner",
+      "tier": 3,
+      "unlock": {
+        "difficulty": 5
+      },
+      "stats": {
+        "might": 10,
+        "dexterity": 8,
+        "vitality": 10,
+        "intelligence": 14,
+        "reflex": 8
+      },
+      "skills": [
+        "The Bad Bloom",
+        "The Good Bloom",
+        "Circle of Life",
+        "Titan Bloom"
+      ],
+      "gearNote": "Healing Staff",
+      "equipment": {
+        "armor": "Harmonious Garb",
+        "mainHand": "Elder Branch"
+      }
+    },
+    {
+      "id": "masher",
+      "name": "Masher",
+      "description": "One button is all I need.",
+      "gender": "Female",
+      "appearanceFrom": "T2_Bulwark",
+      "tier": 3,
+      "unlock": {
+        "difficulty": 5
+      },
+      "stats": {
+        "might": 14,
+        "dexterity": 8,
+        "vitality": 12,
+        "intelligence": 8,
+        "reflex": 8
+      },
+      "skills": [
+        "Quaking Fist",
+        "Tricks of the Trade"
+      ],
+      "gearNote": "2h Hammer",
+      "equipment": {
+        "armor": "Praetorian Cuirass",
+        "mainHand": "Shield Crusher"
+      }
+    },
+    {
+      "id": "mind-taker",
+      "name": "Mind Taker",
+      "description": "Mind taken!",
+      "gender": "Male",
+      "appearanceFrom": "09-Shadow Knight",
+      "tier": 3,
+      "unlock": {
+        "difficulty": 5
+      },
+      "stats": {
+        "might": 10,
+        "dexterity": 10,
+        "vitality": 10,
+        "intelligence": 12,
+        "reflex": 8
+      },
+      "skills": [
+        "Cupid Shot",
+        "Mind Blossom"
+      ],
+      "gearNote": "Bow",
+      "equipment": {
+        "armor": "Assistant's Attire",
+        "mainHand": "Crystal Cane"
+      }
+    },
+    {
+      "id": "chosen-one",
+      "name": "Chosen One",
+      "description": "There can be only between one and six.",
+      "gender": "Female",
+      "appearanceFrom": "T4_The Mad Mage",
+      "tier": 3,
+      "unlock": {
+        "difficulty": 5
+      },
+      "stats": {
+        "might": 10,
+        "dexterity": 10,
+        "vitality": 10,
+        "intelligence": 10,
+        "reflex": 10
+      },
+      "skills": [
+        "Kindling",
+        "Conduit",
+        "Reverberate"
+      ],
+      "gearNote": "2h Sword",
+      "equipment": {
+        "armor": "Challenger's Garb",
+        "mainHand": "Hero's Blade"
+      }
+    },
+    {
+      "id": "assassin",
+      "name": "Assassin",
+      "description": "I am that guy.",
+      "gender": "Female",
+      "appearanceFrom": "T2_Enchanter",
+      "tier": 3,
+      "unlock": {
+        "difficulty": 5
+      },
+      "stats": {
+        "might": 16,
+        "dexterity": 10,
+        "vitality": 8,
+        "intelligence": 8,
+        "reflex": 8
+      },
+      "skills": [
+        "Hidden Blade",
+        "Deathblow",
+        "Soft Step"
+      ],
+      "equipment": {
+        "head": "Assassin's Mask",
+        "armor": "Assassin's Garb",
+        "mainHand": "Assassin's Edge",
+        "offHand": "Assassin's Edge"
+      }
+    },
+    {
+      "id": "beastmaster",
+      "name": "Beastmaster",
+      "description": "I hear the call of the wild.",
+      "gender": "Male",
+      "appearanceFrom": "T4_Ani",
+      "tier": 3,
+      "unlock": {
+        "difficulty": 5
+      },
+      "stats": {
+        "might": 12,
+        "dexterity": 10,
+        "vitality": 10,
+        "intelligence": 10,
+        "reflex": 8
+      },
+      "skills": [
+        "Nature Summoning I",
+        "Nature Summoning II",
+        "Nature Summoning III",
+        "Ecosystem"
+      ],
+      "gearNote": "weapon with summoning bonus",
+      "equipment": {
+        "armor": "Stag Plate",
+        "mainHand": "Dwarven Handaxe",
+        "offHand": "Dwarven Handaxe"
+      }
+    },
+    {
+      "id": "dark-soul",
+      "name": "Dark Soul",
+      "description": "Not that hard.",
+      "gender": "Male",
+      "appearanceFrom": "T1_08 Chaos",
+      "tier": 3,
+      "unlock": {
+        "difficulty": 5
+      },
+      "stats": {
+        "might": 8,
+        "dexterity": 8,
+        "vitality": 18,
+        "intelligence": 8,
+        "reflex": 8
+      },
+      "skills": [
+        "Soul Crush",
+        "Soul Link",
+        "Soul Exchange",
+        "Endless Night"
+      ],
+      "equipment": {
+        "armor": "Blackguard Chainmail",
+        "mainHand": "Abyssal Staff"
+      }
+    },
+    {
+      "id": "wolfmother",
+      "name": "Wolfmother",
+      "description": "Neither a joker nor a thief.",
+      "gender": "Female",
+      "appearanceFrom": "T3_Lycan",
+      "tier": 3,
+      "unlock": {
+        "difficulty": 5
+      },
+      "stats": {
+        "might": 10,
+        "dexterity": 10,
+        "vitality": 10,
+        "intelligence": 12,
+        "reflex": 8
+      },
+      "skills": [
+        "Pack Summoning I",
+        "Pack Summoning II",
+        "Pack Summoning III",
+        "Ecosystem"
+      ],
+      "gearNote": "weapon with summoning bonus",
+      "equipment": {
+        "armor": "Hunter's Trappings",
+        "mainHand": "Composite Longbow"
+      }
+    },
+    {
+      "id": "archammer",
+      "name": "The Arc Hammer",
+      "description": "A new type of Stormtrooper.",
+      "gender": "Male",
+      "appearanceFrom": "T3_Midas",
+      "tier": 3,
+      "unlock": {
+        "difficulty": 6
+      },
+      "stats": {
+        "might": 14,
+        "dexterity": 8,
+        "vitality": 10,
+        "intelligence": 10,
+        "reflex": 8
+      },
+      "skills": [
+        "Enchant Lightning",
+        "Discharge",
+        "Many Sided Strike",
+        "Thunder Struck"
+      ],
+      "gearNote": "mjolnir",
+      "equipment": {
+        "armor": "Lightning Gi",
+        "mainHand": "Mjolnir",
+        "offHand": "Gilded Kite Shield"
+      }
+    },
+    {
+      "id": "emberblade",
+      "name": "The Ember Blade",
+      "description": "The Apocalypse has begun.",
+      "gender": "Male",
+      "appearanceFrom": "T5_Avatar of Flame",
+      "tier": 3,
+      "unlock": {
+        "difficulty": 7
+      },
+      "stats": {
+        "might": 14,
+        "dexterity": 10,
+        "vitality": 10,
+        "intelligence": 8,
+        "reflex": 8
+      },
+      "skills": [
+        "Enchant Fire",
+        "Overwhelming Power",
+        "Master Assassin",
+        "Perturb"
+      ],
+      "gearNote": "apocalypse",
+      "equipment": {
+        "armor": "Fire Gi",
+        "mainHand": "Apocalypse"
+      }
+    },
+    {
+      "id": "frostspear",
+      "name": "The Frost Spear",
+      "description": "Mr Cool Ice.",
+      "gender": "Male",
+      "appearanceFrom": "08-Cryomancer",
+      "tier": 3,
+      "unlock": {
+        "difficulty": 8
+      },
+      "stats": {
+        "might": 14,
+        "dexterity": 8,
+        "vitality": 8,
+        "intelligence": 12,
+        "reflex": 8
+      },
+      "skills": [
+        "Enchant Cold",
+        "Frost Nova",
+        "Mass Freeze",
+        "Icefall"
+      ],
+      "gearNote": "hailstone staff",
+      "equipment": {
+        "armor": "Ice Gi",
+        "mainHand": "Hailstone Staff"
+      }
+    },
+    {
+      "id": "ghosttrigger",
+      "name": "The Ghost Trigger",
+      "description": "Pew pew.",
+      "gender": "Female",
+      "appearanceFrom": "09-Shadow Knight",
+      "tier": 3,
+      "unlock": {
+        "difficulty": 9
+      },
+      "stats": {
+        "might": 8,
+        "dexterity": 8,
+        "vitality": 18,
+        "intelligence": 8,
+        "reflex": 8
+      },
+      "skills": [
+        "Affinity",
+        "Fight Dirty",
+        "Bone Collector",
+        "Endless Night"
+      ],
+      "gearNote": "spectral hammer x 2",
+      "equipment": {
+        "armor": "Plague Jacket",
+        "mainHand": "Spectral Hammer",
+        "offHand": "Spectral Hammer"
+      }
+    },
+    {
+      "id": "pandemonium",
+      "name": "The Pandemonium Queen",
+      "description": "Long Live the Queen.",
+      "gender": "Female",
+      "appearanceFrom": "T5_The True King",
+      "tier": 3,
+      "unlock": {
+        "difficulty": 10
+      },
+      "stats": {
+        "might": 10,
+        "dexterity": 10,
+        "vitality": 10,
+        "intelligence": 10,
+        "reflex": 10
+      },
+      "skills": [
+        "Chaos Cut",
+        "Harm",
+        "Chaos Crush",
+        "Tricks of the Trade"
+      ],
+      "gearNote": "magedraw",
+      "equipment": {
+        "armor": "Grandmaster's Gi",
+        "mainHand": "Magedraw"
+      }
+    }
+  ]
+}

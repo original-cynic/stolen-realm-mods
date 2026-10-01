@@ -7,10 +7,10 @@ How to Install:
 
 2. Copy the extracted folder/files into your Stolen Realm installation folder (e.g. C:\Program Files (x86)\Steam\steamapps\common\Stolen Realm\).
 
-When complete, you should see the following folder/files in your Stolen Realm install folder:
-* BepInEx
-* .doorstop_version
-* doorstop_config
-* winhttp.dll
+3. When complete, you should see the following folder/files in your Stolen Realm install folder:
+  * BepInEx
+  * .doorstop_version
+  * doorstop_config
+  * winhttp.dll
 
-3. Launch the game and enjoy!
+4. Launch the game and enjoy!

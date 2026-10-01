@@ -2,7 +2,7 @@
 A mod for the Roguelike mode of Stolen Realm that adds additional starting classes.
 
 
-**An enormous thank you to BFiveAlive for creating the framework for this mod. Without their work, this would not have been possible. You can find more of their work [here](https://github.com/BFiveAlive/stolen-realm-mods/)**
+**An enormous thank you to BFiveAlive for creating the framework for this mod. Without their work, this would not have been possible. You can find more of their work [here](https://github.com/BFiveAlive/stolen-realm-mods/).**
 
 
 How to Install:

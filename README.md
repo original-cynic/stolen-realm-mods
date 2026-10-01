@@ -1,16 +1,16 @@
 # stolen-realm-mods
-A repository for Stolen Realm mods. Mainly, a mod for the Roguelike mode that adds additional starting classes.
+A mod for the Roguelike mode of Stolen Realm that adds additional starting classes.
 
 How to Install:
 
-1. Perform a manual installation of BepInEx pack, following the instructions at the link below:
-https://thunderstore.io/c/repo/p/BepInEx/BepInExPack/
+1. Download and extract the contents of SRRmod.zip.
 
-2. Navigate to the game's installation directory, where you will have copied the "BepInEx" folder as part of the manual installation above.
+2. Copy the extracted folder/files into your Stolen Realm installation folder (e.g. C:\Program Files (x86)\Steam\steamapps\common\Stolen Realm\).
 
-3. Within the game's install directory, navigate to BepInEx\plugins\ and create a folder named "RoguelikeClassesMod". Open this folder.
+When complete, you should see the following folder/files in your Stolen Realm install folder:
+* BepInEx
+* .doorstop_version
+* doorstop_config
+* winhttp.dll
 
-4. Copy the classes.json and RoguelikeClassesMod.dll files into the RoguelikeClassesMod folder.
-
-5. Launch the game and enjoy!
-
+3. Launch the game and enjoy!
